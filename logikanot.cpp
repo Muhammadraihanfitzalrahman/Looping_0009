@@ -11,3 +11,9 @@ int main(){
     cin >> nilB;
 
     rerata = (nilB + nilM) / 2;
+
+    // Menggunakan operator NOT (!) untuk membalikkan kondisi
+    if (!(rerata < 60))
+        status = "Lulus";
+    else
+        status = "Tidak lulus";
